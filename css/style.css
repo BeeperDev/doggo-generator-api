@@ -20,18 +20,67 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-body {
+html {
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 0.793), rgba(75, 158, 158, 0.805));
 
 }
+
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
-
+  margin-bottom: 30px;
+  text-align: center;
+  background: white;
 }
+
+h2 {
+  margin: 10px;
+  padding: 15px;
+}
+
+select {
+  font-size: 1.1rem;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10vw;           /* vw & vh -> takes 10% of the viewport and uses that. adapts to the space you have available */
+  padding-right: 10vw;
+  height: 100vh;
+}
+
+
+img {
+  max-width: 900px;
+  max-height: 700px;
+}
+
+span, div {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.3rem
+}
+
+#dog-name {
+  text-decoration: none;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+}
+
+#left-column {
+  text-align: center;
+}
+
+
 
 footer {
 
