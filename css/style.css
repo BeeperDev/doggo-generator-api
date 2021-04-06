@@ -47,21 +47,26 @@ select {
   font-size: 1.1rem;
 }
 
-.section-container {
+.section-container {          /* flex container */
   display: flex;
   flex-direction: row;
-  padding-left: 10vw;           /* vw & vh -> takes 10% of the viewport and uses that. adapts to the space you have available */
-  padding-right: 10vw;
+  justify-content: space-between;
+  padding-left: 5vw;           /* vw & vh -> takes 10% of the viewport and uses that. adapts to the space you have available */
+  padding-right: 5vw;
   height: 100vh;
 }
 
-
-img {
-  max-width: 900px;
-  max-height: 700px;
+.img-container {
+  padding:10px;
 }
 
-span, div {
+img {
+  max-width: 700px;
+  max-height: 500px;
+  border-radius: 10px;
+}
+
+span{
   font-weight: bold;
   text-decoration: underline;
   font-size: 1.3rem
@@ -80,12 +85,3 @@ span, div {
   text-align: center;
 }
 
-
-
-footer {
-
-}
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
