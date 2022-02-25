@@ -5,33 +5,41 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
-/******************************************
+/*******************************************
 /* BASE STYLES
 /*******************************************/
 html {
   font-size: 1.5rem;
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(rgba(255, 255, 255, 0.793), rgba(75, 158, 158, 0.805));
-
+  font-family: "Poppins", sans-serif;
 }
 
-
-
-/******************************************
+/*******************************************
 /* LAYOUT
 /*******************************************/
+body {
+  /* background-color: #fbc201; */
+  background: #fbc201;
+  /* background: url("../dog.jpg"); */
+}
+
+#dog-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 header {
   margin-bottom: 30px;
   text-align: center;
@@ -47,17 +55,18 @@ select {
   font-size: 1.1rem;
 }
 
-.section-container {          /* flex container */
+.section-container {
+  /* flex container */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 5vw;           /* vw & vh -> takes 10% of the viewport and uses that. adapts to the space you have available */
+  padding-left: 5vw; /* vw & vh -> takes 10% of the viewport and uses that. adapts to the space you have available */
   padding-right: 5vw;
-  height: 100vh;
+  height: 100%;
 }
 
 .img-container {
-  padding:10px;
+  padding: 10px;
 }
 
 img {
@@ -66,10 +75,14 @@ img {
   border-radius: 10px;
 }
 
-span{
+.column {
+  width: 75%;
+}
+
+span {
   font-weight: bold;
   text-decoration: underline;
-  font-size: 1.3rem
+  font-size: 1.3rem;
 }
 
 #dog-name {
@@ -84,4 +97,3 @@ span{
 #left-column {
   text-align: center;
 }
-

@@ -1,60 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-  	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
-  	<meta name="keywords" content="one, two, three">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<title>Blank Template</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">		
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<header>
-			<h2>Doggo Viewer</h2>
-		</header>
-		<div id="dog-name">Dougie the Default Corgi</div>
-			
-		<section class="section-container">
-			<section class="column" id="left-column">
-				<section class="item">
-					<span>Choose your Breed!</span>
-				</section>
-				<section class="item">
-					<div>🐶 🐶 🐶 🐶 🐶 🐶 🐶 🐶</div>
-					<select class="breeds">
-						<option value="starter" selected>Select me!</option>
-					</select>
-				</section>
-				<section class="item">
-					<section class="img-container">
-						<section class="container">
-							<img src="http://placecorgi.com/500/500" class="dog-img" alt="cute corgi for the home page">
-						</section>
-					</section>
-				</section>
-			</section>
-			<section class="column">
-				<section class="item">
-					<span>Doggo Characteristics</span>
-					<ul>
-						<li id="MF"> Male</li>
-						<li id="age">2 years old</li>
-						<li id="likes">Likes: Ham, String Cheese</li>
-						<li id="dislikes">Dislikes: Baths, Entropy</li>
-						<li id="fun-fact">Additional Info: On every walk, has to visit that one spot where they found a piece of cheese on the ground six months ago</li>
-					</ul>
-				</section>
-			</section>
-		</section>
-		
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Your description goes here" />
+    <meta name="keywords" content="one, two, three" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <title>Dog Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- external CSS link -->
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Doggo Viewer</h2>
+    </header>
+    <div id="dog-name">Dougie the Default Corgi</div>
 
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+    <img id="dog-bg" src="dog.jpg" alt="alt" />
+
+    <section class="section-container">
+      <section class="column" id="left-column">
+        <section class="item">
+          <span>Choose your Breed!</span>
+        </section>
+        <section class="item">
+          <div>🐶 🐶 🐶 🐶 🐶 🐶 🐶 🐶</div>
+          <select class="breeds">
+            <option value="starter" selected>Select me!</option>
+          </select>
+        </section>
+        <section class="item">
+          <section class="img-container">
+            <section class="container">
+              <img
+                src="Corgi.jpg"
+                class="dog-img"
+                alt="cute corgi for the home page"
+                width="300"
+              />
+            </section>
+          </section>
+        </section>
+      </section>
+      <section class="column">
+        <section class="item">
+          <span>Doggo Characteristics</span>
+          <ul>
+            <li id="MF">Male</li>
+            <li id="age">2 years old</li>
+            <li id="likes">Likes: Ham, String Cheese</li>
+            <li id="dislikes">Dislikes: Baths, Entropy</li>
+            <li id="fun-fact">
+              Additional Info: On every walk, has to visit that one spot where
+              they found a piece of cheese on the ground six months ago
+            </li>
+          </ul>
+        </section>
+      </section>
+    </section>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
