@@ -52,7 +52,7 @@ h2 {
 }
 
 select {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .section-container {
@@ -82,7 +82,7 @@ img {
 span {
   font-weight: bold;
   text-decoration: underline;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 #dog-name {
